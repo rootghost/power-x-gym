@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../Shared/Footer/Footer';
 import Aboutus from '../Aboutus/Aboutus';
 import Chooseus from '../Chooseus/Chooseus';
 import Header from '../Header/Header';
@@ -13,6 +14,7 @@ const Home = () => {
            <Aboutus></Aboutus>
            <Programs></Programs>
            <Chooseus></Chooseus>
+           <Footer></Footer>
         </div>
     );
 };
